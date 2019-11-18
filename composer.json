@@ -1,0 +1,32 @@
+{
+    "name": "coruscatesolutions/serial-number-generator-laravel",
+    "description": "Serail number",
+    "type": "library",
+    "require": {
+        "jenssegers/mongodb": "^3.6"
+    },
+    "authors": [
+        {
+            "name": "Ankit Virani",
+            "email": "ankit.virani9393@gmail.com"
+        },
+        {
+            "name" : "Akash Pandya",
+            "email":"akashpandya100@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-0": {
+            "CoruscateSolutions\\SerialNumberGeneratorLaravel": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "CoruscateSolutions\\SerialNumberGeneratorLaravel\\SerialNumberGeneratorLaravelServiceProvider"
+               
+            ]
+        }
+    }
+}
